@@ -25,7 +25,10 @@
 
 html, body {
   font-family: var(--font-body);
-  background: var(--cream);
+  background-image: url('/golf-course.jpg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
   color: var(--charcoal);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -38,7 +41,7 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: var(--cream);
+  background: transparent;
   position: relative;
 }
 
@@ -304,9 +307,6 @@ select:focus, input:focus {
 /* ── Home hero ── */
 .hero-banner {
   background: linear-gradient(145deg, var(--green-deep) 0%, var(--green-mid) 60%, var(--green-light) 100%);
-  background-image: url('/golf-course.jpg');
-background-size: cover;
-background-position: center;
   border-radius: 18px;
   padding: 24px 20px;
   color: white;
