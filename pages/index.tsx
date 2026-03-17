@@ -226,6 +226,7 @@ function AnalyzeTab({ canAnalyze, remaining, isPremium, onSave, onUpgrade }:
   const [shotType, setShotType] = useState(SHOT_TYPES[0])
   const [gripType, setGripType] = useState(GRIP_TYPES[0])
   const [proEmulate, setProEmulate] = useState('None')
+  const [cameraAngle, setCameraAngle] = useState('Face On')
   const [mode, setMode] = useState<'select' | 'camera' | 'upload' | 'analyzing' | 'result'>('select')
   const [status, setStatus] = useState('')
   const [result, setResult] = useState('')
@@ -459,6 +460,14 @@ function AnalyzeTab({ canAnalyze, remaining, isPremium, onSave, onUpgrade }:
             {GRIP_TYPES.map(g => <option key={g}>{g}</option>)}
           </select>
         </div>
+       <div className="form-group">
+  <label className="form-label">📷 Camera Angle</label>
+  <select value={cameraAngle} onChange={e => setCameraAngle(e.target.value)}>
+    <option>Face On (film from front or back)</option>
+    <option>Down the Line (film from behind)</option>
+    <option>Both Angles</option>
+  </select>
+</div>
         <div className="form-group">
           <label className="form-label">Emulate a Pro (optional)</label>
           <select value={proEmulate} onChange={e => setProEmulate(e.target.value)}>
