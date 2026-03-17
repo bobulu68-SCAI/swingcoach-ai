@@ -23,7 +23,14 @@ export const PRO_GOLFERS = [
   { name: 'Lydia Ko',      style: 'Technical Precision',     desc: 'Compact backswing, excellent impact position, consistent flight' },
   { name: 'Jon Rahm',      style: 'Compact & Powerful',      desc: 'Short backswing, fast hip clearance, elite ball-striking' },
   { name: 'Dustin Johnson', style: 'Bowed Wrist Power',      desc: 'Bowed left wrist at top, deep hip rotation, massive distance' },
-]
+{ name: 'Moe Norman', style: 'Single Plane Perfection', desc: 'The most technically perfect swing ever — single plane, zero wasted movement, robotically consistent ball-striking' },
+  { name: 'Fred Couples', style: 'Effortless Power', desc: 'Ultra-loose flowing tempo with silky transition — looks barely trying yet generates enormous power' },
+  { name: 'Payne Stewart', style: 'Classic Elegance', desc: 'Textbook classic swing with beautiful rhythm, full shoulder turn, and perfectly balanced finish' },
+  { name: 'Rickie Fowler', style: 'Modern Athletic', desc: 'Open stance, strong grip, explosive through-swing — popular with younger golfers for his athletic modern style' },
+  { name: 'Adam Scott', style: 'Picture Perfect', desc: 'Widely considered the most beautiful modern swing — perfect tempo, gorgeous follow-through, textbook in every position' },
+  { name: 'Steve Stricker', style: 'Simple & Repeatable', desc: 'Minimal moving parts, quiet lower body, incredibly consistent — perfect model for beginners wanting simplicity' },
+  { name: 'Seve Ballesteros', style: 'Creative Genius', desc: 'Magical feel and creativity — unmatched short game imagination and recovery shot brilliance' },
+  { name: 'Tom Watson', style: 'Timeless Technique', desc: 'Classic fundamentals with aggressive putting — one of the most complete players and ball-strikers in history' },]
 
 export const GRIPS = [
   {
